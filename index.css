@@ -1,15 +1,28 @@
 body {
-    background: #eeeeee;
-    color: #2f2f2f;
+    background: #283618;
+    color: #ffffff;
     font-family: Helvetica, sans-serif;
 }
 
-h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-weight: normal;
+    padding: 0;
+    margin: 0;
 }
 
 .team_img {
     width: 300px;
+}
+
+.header {
+    margin-top: 8rem;
+}
+
+.header_img {
+    width: 400px;
 }
 
 .navbar {
@@ -17,10 +30,6 @@ h2, h3, h4 {
     justify-content: space-between;
     align-items: center;
     padding: 0 4rem
-}
-
-.text {
-    /*width: 30%;*/
 }
 
 .nav_links {
@@ -38,7 +47,6 @@ h2, h3, h4 {
 }
 
 .thumbnail {
-    /*border-radius: 50%;*/
     border-radius: 5px;
     display: inline-flex;
     background: #ff4c4c;
@@ -73,15 +81,18 @@ h2, h3, h4 {
 
 .team_section {
     text-align: center;
-    background: #ffdddd;
+    border-radius: .5rem;
+    background: #f1faee;
     padding: 2rem 0;
     display: flex;
+    color: #363636;
     flex-direction: column;
     gap: 3rem;
 }
 
 .services_section {
     text-align: center;
+    margin-top: 3rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -91,18 +102,26 @@ h2, h3, h4 {
 .services {
     display: flex;
     gap: 1.5rem;
+    margin-top: 2rem;
 }
 
 .service {
-    background: #fff6ce;
+    background: #ffb703;
+    color: #1a1a1a;
     border-radius: .5rem;
-    padding: 0 2rem;
+    padding: 2rem;
 }
 
 .capsule {
     text-align: left;
-    background: #ffe976;
+    background: #fb8500;
+    color: #fff;
     padding: .5rem 1.5rem;
     font-size: .8rem;
     border-radius: 100px;
+}
+
+.footer {
+    text-align: center;
+    padding: 5rem 0 2rem
 }
