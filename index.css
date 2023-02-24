@@ -1,5 +1,5 @@
 body {
-    background: #283618;
+    background: rgba(#283618);
     color: #ffffff;
     font-family: Helvetica, sans-serif;
 }
@@ -14,7 +14,7 @@ h4 {
 }
 
 .team_img {
-    width: 300px;
+    /* width: 300px; */
 }
 
 .header {
@@ -106,9 +106,9 @@ h4 {
 }
 
 .service {
-    background: #ffb703;
+    /* background: #ffb703; */
     color: #1a1a1a;
-    border-radius: .5rem;
+    /* border-radius: .5rem; */
     padding: 2rem;
 }
 
@@ -118,7 +118,7 @@ h4 {
     color: #fff;
     padding: .5rem 1.5rem;
     font-size: .8rem;
-    border-radius: 100px;
+    /* border-radius: 100px; */
 }
 
 .footer {
